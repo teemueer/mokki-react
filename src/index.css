@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  @apply mb-4 text-2xl font-bold
+}
+
+table {
+  @apply w-full text-left text-gray-500 dark:text-gray-400 truncate
+}
+
+.navbar {
+  @apply py-4 px-6 bg-white shadow
+}
+
+.container {
+  @apply m-4
+}
+
+.login {
+  @apply flex items-center justify-center min-h-screen bg-gray-100
+}
+
+.login h2 {
+  @apply text-2xl font-bold text-center
+}
+
+input {
+  @apply px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600
+}
+
+.login button {
+  @apply px-6 py-2 mt-4 text-white bg-blue-600 rounded-lg hover:bg-blue-900
+}
+
+.charts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.chart {
+  width: 700px !important;
+  min-width: 700px !important;
+}
